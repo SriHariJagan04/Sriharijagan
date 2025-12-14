@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
-import techIcons from "../../components/TechIcons";
 import styles from "../../Pages/Projects/projects.module.css";
+import techIcons from "../TechIcons";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
