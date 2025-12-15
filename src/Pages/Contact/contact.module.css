@@ -201,6 +201,7 @@
 
   .card {
     padding: 2rem;
+    padding-left: 1rem;
   }
 
   .infoGrid {
@@ -218,3 +219,4 @@
     left: -15px;
   }
 } */
+
