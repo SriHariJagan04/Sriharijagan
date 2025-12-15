@@ -96,7 +96,7 @@ export const projectsData = [
     id: 4,
     title: "Eccellenza Infra",
     image: "/Images/project/eccellenza.png",
-    tech: ["React", "Framer Motion", "LightGallery", "CSS Modules", "SEO"],
+    tech: ["React", "Framer Motion", "CSS Modules", "SEO"],
     description:
       "Developed a corporate website for a commercial interior design and construction firm, focusing on a clean UI, smooth animations, backend integrations, and strong SEO performance.",
     points: [

@@ -2,6 +2,7 @@
   padding: 2rem;
   max-width: 1100px;
   margin: auto;
+  overflow-x: hidden;
 }
 
 /* =====================
@@ -277,6 +278,12 @@
   .grid {
     grid-template-columns: 1fr;
   }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  
 }
 
 @media (max-width: 480px) {

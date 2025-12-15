@@ -205,8 +205,6 @@
 
   .infoGrid {
     grid-template-columns: 1fr;
-    position: relative;
-    /* left: -15px; */
   }
 
   .connectText {
@@ -214,9 +212,9 @@
   }
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
 .infoGrid {
     position: relative;
     left: -15px;
   }
-}
+} */
