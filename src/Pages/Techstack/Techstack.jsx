@@ -71,7 +71,7 @@ const Techstack = () => {
         transition={{ duration: 0.6 }}
       >
         <Code2 size={26} />
-        Core <span>Technologies</span>
+       Tech <span>Stack</span>
       </motion.h1>
 
       <div className="headingDivider" />

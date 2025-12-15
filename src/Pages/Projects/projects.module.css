@@ -1,5 +1,5 @@
 .projects {
-  padding: 6rem 2rem;
+  padding: 2rem;
   max-width: 1100px;
   margin: auto;
 }
@@ -160,7 +160,7 @@
   overflow: hidden;
   border: 1px solid var(--border-color);
   background: var(--bg-muted);
-  height: 250px;
+  height: 220px;
   margin-bottom: 0.5rem;
 }
 
@@ -269,19 +269,19 @@
 /* =====================
    RESPONSIVE
 ===================== */
-@media (max-width: 768px) {
-  .body {
-    grid-template-columns: 1fr;
-  }
-
+@media (max-width: 800px) {
   .imageWrap {
     height: 350px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 480px) {
   .projects {
-    padding: 4rem 1rem;
+    padding: 1rem .5rem;
   }
 
   .card {

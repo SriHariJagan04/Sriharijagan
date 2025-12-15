@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Twitter, Mail, MapPinHouse } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail, MapPinHouse, ArrowDown } from "lucide-react";
 import styles from "./about.module.css";
 
 const container = {
@@ -34,7 +34,7 @@ const About = () => {
         viewport={{ once: true }}
       >
         <motion.div className={styles.img} variants={fadeUp}>
-          <img src="/Images/myPic.png" alt="Sri Hari Jagan Mushini" />
+          <img src="/Images/Jagan.jpg" alt="Sri Hari Jagan Mushini" />
         </motion.div>
 
         <motion.p className={styles.location} variants={fadeUp}>
@@ -45,7 +45,7 @@ const About = () => {
         <motion.div className={styles.socialIcons} variants={fadeUp}>
           <a
             className={`${styles.icon} ${styles.github}`}
-            href="https://github.com/yourusername"
+            href="https://github.com/SriHariJagan"
             target="_blank"
             rel="noreferrer"
           >
@@ -54,7 +54,7 @@ const About = () => {
 
           <a
             className={`${styles.icon} ${styles.linkedin}`}
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/sri-hari-jagan-mushini/"
             target="_blank"
             rel="noreferrer"
           >
@@ -62,21 +62,22 @@ const About = () => {
           </a>
 
           <a
-            className={`${styles.icon} ${styles.twitter}`}
-            href="https://twitter.com/yourusername"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Twitter />
-          </a>
-
-          <a
             className={`${styles.icon} ${styles.mail}`}
-            href="mailto:yourmail@gmail.com"
+            href="mailto:sriharijagan04@gmail.com"
           >
             <Mail />
           </a>
         </motion.div>
+
+        <a
+          href="/resume/Sri_Hari_Jagan_Mushini.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className={styles.resume_btn}>
+            Download Resume <ArrowDown />
+          </button>
+        </a>
       </motion.div>
 
       {/* RIGHT */}
@@ -101,8 +102,8 @@ const About = () => {
 
         <motion.p className={styles.desc} variants={fadeUp}>
           I am a Full-Stack Developer with experience in building modern,
-          scalable web applications using React, Next.js, Node.js, and Python.
-          I focus on clean UI, performance optimization, and maintainable code.
+          scalable web applications using React, Next.js, Node.js, and Python. I
+          focus on clean UI, performance optimization, and maintainable code.
         </motion.p>
 
         <motion.p className={styles.desc} variants={fadeUp}>
